@@ -44,7 +44,6 @@ all: integer_parse.a
 
 integer_parse.a: uint8_t_parse.o uint16_t_parse.o
 
-
 #########################
 # DEVELOPMENT UTILITIES #
 #########################

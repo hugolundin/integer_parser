@@ -56,7 +56,7 @@
 int uint16_t_parse (
     char const * const buf,
     const int buf_len,
-    uint8_t * result
+    uint16_t * result
 )
 {      
     int cs;
