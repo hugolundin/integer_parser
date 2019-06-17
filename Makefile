@@ -100,7 +100,7 @@ test: test_driver
 	$(Q)./test_driver
 
 test_driver: CFLAGS += -Ivendor/munit/
-test_driver: test_driver.o munit.o
+test_driver: test_driver.o  test_uint8_t_parse.o test_uint16_t_parse.o uint8_t_parse.o uint16_t_parse.o munit.o
 
 # The 'check' target is primarily for testing *the compiled target*; i.e. if
 # you're building a shared library, the 'check' target would compile a binary
